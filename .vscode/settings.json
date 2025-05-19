@@ -1,0 +1,6 @@
+{
+    "solidity.defaultCompiler": "localNodeModule",
+    "[solidity]": {
+        "editor.formatOnSave": false
+    }
+}
