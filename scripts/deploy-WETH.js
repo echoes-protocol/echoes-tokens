@@ -6,13 +6,13 @@ function sleep(milliseconds) {
 
 async function main() {
   const args = [
-    "0x29219dd400f2Bf60E5a23d13Be72B486D4038894", // underlying asset
+    "0x50c42dEAcD8Fc9773493ED674b675bE577f2634b", // underlying asset
     "0xD1288f01Ba458de8659694A1E7d239dD36f8fd75", // comptroller
-    "0xCd5375F772aAA6d8f530966155Ce79A1503be1c9", // interest rate model
+    "0x5D6b71337b88018441cdF3Ad46bf7230bEC5ae76", // interest rate model
     // formula initialExchangeRateMantissa = exchangeRate * 10^(underlyingDecimals + 18 - cTokenDecimals)
-    "200000000000000", // The initial exchange rate, scaled by 1e18
-    "Echoes USD Coin", // name
-    "eUSDC", // symbol
+    "200000000000000000000000000", // The initial exchange rate, scaled by 1e18
+    "Echoes Wrapped ETH", // name
+    "eWETH", // symbol
     8, // decimals
   ];
 
